@@ -1,0 +1,22 @@
+
+
+body {
+  background: url("bigben3.jpg");
+  background-position: center;
+  background-size: cover;
+  text-align: start;
+  color: white;
+
+  }
+.center{
+  text-align: center;
+}
+.right{
+  text-align: right;
+}
+.left{
+  text-align: left;
+}
+
+
+    }
