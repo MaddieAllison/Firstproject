@@ -1,22 +1,59 @@
 
 
 body {
-  background: url("bigben3.jpg");
-  background-position: center;
-  background-size: cover;
-  text-align: start;
-  color: white;
 
-  }
-.center{
+.container1{
+  text-align: center;
+  background: url(Londonsky.jpg);
+  webkit-background-size: cover;
+  moz-background-size: cover;
+  background-position: center;
+}
+.container2{
+  text-align: center;
+  list-style-position: inside;
+  margin-top: 15px;
+}
+.container3{
+  text-align: center;
+  list-style-position: inside;
+  margin-top: 15px;
+}
+.ol{
+  list-style-position: inside;
+  list-style-position: inside;
+  margin-top: 15px;
+}
+.container4{
+  text-align: center;
+  list-style-position: inside;
+  margin-top: 15px;
+}
+.div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+.container5{
+  text-align: center;
+  list-style-position: inside;
+  margin-top: 15px;
+}
+.container6{
+  text-align: center;
+  list-style-position: inside;
+  margin-top: 15px;
+}
+.container7{
+  text-align: center;
+  list-style-position: inside;
+  margin-top: 15px;
+}
+.signup{
   text-align: center;
 }
-.right{
-  text-align: right;
+.social{
+  text-align: center;
 }
-.left{
-  text-align: left;
 }
-
-
-    }
