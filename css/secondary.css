@@ -1,14 +1,17 @@
-
-
-body {
-
-.container1{
-  text-align: center;
-  background: url(Londonsky.jpg);
-  webkit-background-size: cover;
-  moz-background-size: cover;
-  background-position: center;
+.intro{
+    position: relative;
+  font-size: 600%;
+   font-weight: bold;
+    text-align: center;
+    color: red;
 }
+.top-center{
+  position: absolute;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  
 .container2{
   text-align: center;
   list-style-position: inside;
@@ -44,5 +47,4 @@ body {
 }
 .social{
   text-align: center;
-}
 }
