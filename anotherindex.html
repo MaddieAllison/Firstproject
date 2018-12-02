@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<title> London </title>
 <head>
 <link href="css/bootstrap.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -9,9 +9,9 @@
 
 <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="#news">About</a>
+  <a href="#contact">Tips</a>
+  <a href="#about">2018 Travel</a>
 </div>
 
 <body>
@@ -157,6 +157,22 @@
 
 <br>
 <br>
+
+<div id="googleMap" style="width:100%;height:400px;"></div>
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+
+</body>
+</html>
 <br>
 
 

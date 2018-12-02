@@ -1,27 +1,17 @@
-body {
-  background: url(background1.jpeg);
-  webkit-background-size: cover;
-  moz-background-size: cover;
-  background-position: center;
-      color: white;
-      font-family: helvetica;
-      text-align: center;
-      font-size: 15px;
-    }
-h1 {
-  color: white;
-  font-style: oblique;
-  font-size: 40px;
+.title-bar {
+  background-image: url("yellow.png");
+  font-family:courier;
+  font-size: 600%;
+  margin-bottom: 1%;
+  color: grey;
 }
 
-
-.center{
+.title {
   text-align: center;
+  font-size: 48px;
+  line-height: 200%;
 }
 
-.right{
-  text-align: right;
-}
 
 
 .topnav {

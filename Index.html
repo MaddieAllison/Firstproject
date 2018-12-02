@@ -1,45 +1,104 @@
   <!DOCTYPE html>
-  <html>
-  <head>
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-
-
-  <meta name="viewport" content="width=device-width,
-initial-scale=1.0">
-
+<html>
+<title> Home </title>
+<head>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link href="css/bootstrap.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </head>
 
 <div class="topnav">
   <a class="active" href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="#news">About</a>
+  <a href="#contact">Tips</a>
+  <a href="#about">2018 Travel</a>
 </div>
 
+  <div class="title-bar">
+    <div class="title" align="center">Long Roads</div>
+
+
+</div>
 
 <body>
-  <!-- <header>
-      <ul>
-        <li>  <a href="AboutUs.html" title="About Us">ABOUT US</a></li>
-        <li class="home"><a href="index.html" title="Home">HOME</a></li>
-        <li><a href="monthlyTravel.html" title="Monthly Travels" alt="Monthly Travels">MONTHLY TRAVELS</a></li>
-      </ul>
-    </header> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="slider" class="carousel slide" data-ride="carousel">
+          <!---indicators dot nav------->
+<ol class="carousel-indicators">
+  <li data-target="#my-slider" data-slider-to="0" class="active"></li>
+  <li data-target="#my-slider" data-slider-to="1"></li>
+  <li data-target="#my-slider" data-slider-to="2"></li>
+  <li data-target="#my-slider" data-slider-to="3"></li>
+  <li data-target="#my-slider" data-slider-to="4"></li>
+</ol>
 
-<div class="container1"
-  <center><h1> Long Roads</h1></center>
-
- <div class="center">
-  <h2>If you love sight seeing, travelling to far off places and discovering a world of adventure- than this is the site for you!</h2>
-
-  <p>We spend our time exploring different cities in the world, offering advice for fellow travellers for the very <strong>best<strong> places to visit, the most <strong>delicious<strong> food to eat and of course the <strongest>wildest<strong> advnetures</p>
+          <!---wrapper--->
+<div class="carousel-inner" role="listbox">
+  <div class="item active">
+    <img src="new york.jpg" alt="new york">
+    <div class="carousel-caption">
+      <h1> New York </h1>
+    </div>
+  </div>
+  <div class="item">
+    <img src="beach.jpg" alt="beach">
+    <div class="carousel-caption">
+      <h1> Fiji </h1>
+    </div>
+  </div>
+      <div class="item">
+        <img src="Amazon.jpeg" alt="amazon">
+        <div class="carousel-caption">
+          <h1> The Amazon </h1>
+        </div>
+      </div>
+      <div class="item">
+        <img src="Amazon.jpeg" alt="amazon">
+        <div class="carousel-caption">
+          <h1> The Amazon </h1>
+        </div>
+      </div>
+      <div class="item">
+        <img src="iceland.jpg" alt="iceland">
+        <div class="carousel-caption">
+          <h1> Iceland </h1>
+        </div>
+      </div>
+      <div class="item">
+        <img src="Africa.jpeg" alt="Africa">
+        <div class="carousel-caption">
+          <h1> South Africa </h1>
+        </div>
+      </div>
 </div>
 
+          <!-----controls for next and prev buttons---->
+<a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-left" aria-hidden="true"></span>
+</a>
+<a class="right carousel-control" href="#slider" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-right" aria-hidden="true"></span>
+</a></div>
+
+
+
+
+<br>
+<br>
+<br>
+<br>
   <div class="contact-form">
-  <p>We'd love to hear about your travels, so feel free to send us in your own submissions so that we can keep growing the website!</p>
+  <p><center>We'd love to hear about your travels, so feel free to send us in your own submissions so that we can keep growing the website!</center></p>
+<br>
+<br>
+<br>
 <form class="form-horizontal" action="/action_page.php">
   <div class="form-group">
+    <center>
     <label class="control-label col-sm-2" for="email">Email:</label>
     <div class="col-sm-10">
       <input type="email" class="form-control" id="email" placeholder="Enter email">
@@ -54,7 +113,7 @@ initial-scale=1.0">
   <div class="form-group">
     <div class="col-sm-offset-2 col-sm-10">
       <button type="submit" class="btn btn-default">Submit</button>
-    </div>
+    </center></div>
   </div>
 </form>
 </div>
