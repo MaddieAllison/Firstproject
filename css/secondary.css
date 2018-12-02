@@ -1,59 +1,48 @@
-
-
-body {
-
-.container1{
-  text-align: center;
-  background: url(Londonsky.jpg);
-  webkit-background-size: cover;
-  moz-background-size: cover;
-  background-position: center;
+.intro{
+    position: relative;
+  font-size: 600%;
+   font-weight: bold;
+    text-align: center;
+    color: red;
 }
+
+
+.top-center{
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
 .container2{
   text-align: center;
   list-style-position: inside;
   margin-top: 15px;
+  #element1 {float:left;
+    #element2 {padding-left : 20px; float:left;
 }
+
+
 .container3{
   text-align: center;
   list-style-position: inside;
-  margin-top: 15px;
+  margin-top: 30px;
+  #element1 {float:left;
+    #element2 {padding-left : 20px; float:left;
 }
-.ol{
-  list-style-position: inside;
-  list-style-position: inside;
-  margin-top: 15px;
+
+
+
 }
 .container4{
   text-align: center;
   list-style-position: inside;
-  margin-top: 15px;
+  margin-top: 30px;
+  #element1 {float:left;
+    #element2 {padding-left : 20px; float:left;
 }
-.div {
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-}
-.container5{
-  text-align: center;
-  list-style-position: inside;
-  margin-top: 15px;
-}
-.container6{
-  text-align: center;
-  list-style-position: inside;
-  margin-top: 15px;
-}
-.container7{
-  text-align: center;
-  list-style-position: inside;
-  margin-top: 15px;
-}
-.signup{
-  text-align: center;
-}
-.social{
-  text-align: center;
-}
+
+footer {
+  display: block;
 }
