@@ -1,120 +1,136 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <title> Home </title>
 <head>
+<link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline|Rock+Salt" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link href="css/bootstrap.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+<style>
+body {
+background-color: #ffffff;
+}
+div {
+padding-right: 20px;
+padding-left: 20px;
+}
+</style>
 </head>
 
 <div class="topnav">
-  <a class="active" href="Index.html">Home</a>
-  <a href="#news">About</a>
-  <a href="#contact">Tips</a>
-  <a href="anotherindex.html">2018 Travel</a>
+<a class="active" href="Index.html">Home</a>
+<a href="#news">About</a>
+<a href="#contact">Tips</a>
+<a href="anotherindex.html">2018 Travels</a>
 </div>
 
-  <div class="title-bar">
-    <div class="title" align="center">Long Roads</div>
+<div class="title-bar">
+<div class="title" align="center">Long Roads</div>
 
 
 </div>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div id="slider" class="carousel slide" data-ride="carousel">
-          <!---indicators dot nav------->
-<ol class="carousel-indicators">
-  <li data-target="#my-slider" data-slider-to="0" class="active"></li>
-  <li data-target="#my-slider" data-slider-to="1"></li>
-  <li data-target="#my-slider" data-slider-to="2"></li>
-  <li data-target="#my-slider" data-slider-to="3"></li>
-  <li data-target="#my-slider" data-slider-to="4"></li>
-</ol>
 
-          <!---wrapper--->
-<div class="carousel-inner" role="listbox">
-  <div class="item active">
-    <img src="new york.jpg" alt="new york">
-    <div class="carousel-caption">
-      <h1> New York </h1>
-    </div>
-  </div>
-  <div class="item">
-    <img src="beach.jpg" alt="beach">
-    <div class="carousel-caption">
-      <h1> Fiji </h1>
-    </div>
-  </div>
-      <div class="item">
-        <img src="Amazon.jpeg" alt="amazon">
-        <div class="carousel-caption">
-          <h1> The Amazon </h1>
-        </div>
-      </div>
-      <div class="item">
-        <img src="Amazon.jpeg" alt="amazon">
-        <div class="carousel-caption">
-          <h1> The Amazon </h1>
-        </div>
-      </div>
-      <div class="item">
-        <img src="iceland.jpg" alt="iceland">
-        <div class="carousel-caption">
-          <h1> Iceland </h1>
-        </div>
-      </div>
-      <div class="item">
-        <img src="Africa.jpeg" alt="Africa">
-        <div class="carousel-caption">
-          <h1> South Africa </h1>
-        </div>
-      </div>
+
+<center><script>
+
+var i = 0;
+var images = [];
+var time = 1800;
+
+// Image List
+
+images[0] = 'beach.jpg';
+images[1] = 'new york.jpg';
+images[2] = 'Museum.jpg';
+images[3] = 'iceland.jpg';
+images[4] = 'Africa.jpg';
+//change image
+
+function changeImg(){
+document.slide.src = images[i];
+
+if(i < images.length - 1){
+i++;
+} else {
+i = 0;
+}
+
+setTimeout("changeImg()", time);
+}
+
+window.onload = changeImg;
+
+</script><centre>
+
+<img name="slide" width="1000" height="700">
+
+
+
+<br>
+<br>
+<br>
+<hr>
+<br>
+<div>
+<center><h2> New York <h2><center>
 </div>
+<div>
+<center><p> New York is a year-round destination with four distinct seasons. Winter can be magical, with thick snowfalls followed by cloudless skies, but also unpredictable: one winter might regularly blanket the city in snow and the next year there will be only one giant storm. Summer is the most consistent, as the air turns sticky and humid but the warm weather brings out the fun. Spring and autumn are the optimum times to visit, highlighted by clear blue skies and a crispness to the air. October visitors will be treated to trees turning to golden red for the autumn. <p></center>
+</div>
+<br>
+<hr>
+<br>
+<div>
+<center><h2> Iceland <h2><center>
+</div>
+<div>
+<center><p> You can expect some of Iceland's most popular attractions to be a bit crowded during the long summer days of high-season. If you are indeed visiting in mid-summer, you will be blessed by the unremitting midnight sun whose light lasts for 24 hours.
+Taking advantage of the endless days by travelling at night will let you avoid the crowds and experience a personal, magical moment of timelessness in nature's amber embrace.  <p></center>
+</div>
+<br>
+<hr>
+<br>
+<div>
+<center><h2> Tanzania <h2><center>
+</div>
+<div>
+<center><p> Tanzania boasts 16 national parks and is home to a large variety of animal life. Among the large mammals include the Big five, cheetahs, wildebeest, giraffes, hippopotamuses and various antelopes. Tanzania's most well known wildlife attractions are located in the northern part of the country and include the Serengeti National Park, Tarangire National Park and Lake Manyara National Park.<p>
 
-          <!-----controls for next and prev buttons---->
-<a class="left carousel-control" href="#slider" role="button" data-slide="prev">
-  <span class="glyphicon glyphicon-left" aria-hidden="true"></span>
-</a>
-<a class="right carousel-control" href="#slider" role="button" data-slide="prev">
-  <span class="glyphicon glyphicon-right" aria-hidden="true"></span>
-</a></div>
-
-
-
-
+<p>The Zanzibar Archipelago is a semi-autonomous region of Tanzania. Also nicknamed spice island, the archipelago is home to kilometres of white sand beaches and a cultural fusion of multiple cultures. The capital Zanzibar City still preserves the ancient city of Stone Town<p></center>
+</div>
 <br>
 <br>
 <br>
 <br>
-  <div class="contact-form">
-  <p><center>We'd love to hear about your travels, so feel free to send us in your own submissions so that we can keep growing the website!</center></p>
+<div class="contact-form">
+<h4><center>We'd love to hear about your travels, so feel free to send us in your own submissions so that we can keep growing the website!</center></h4>
 <br>
 <br>
 <br>
 <form class="form-horizontal" action="/action_page.php">
-  <div class="form-group">
-    <center>
-    <label class="control-label col-sm-2" for="email">Email:</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="email" placeholder="Enter email">
-    </div>
-  </div>
-  <div class="form-group">
-    <label class="control-label col-sm-2" for="text">Submission:</label>
-    <div class="col-sm-10">
-      <input type="text" class="form-control" id="pwd" placeholder="Leave your submission here">
-    </div>
-  </div>
-  <div class="form-group">
-    <div class="col-sm-offset-2 col-sm-10">
-      <button type="submit" class="btn btn-default">Submit</button>
-    </center></div>
-  </div>
+<div class="form-group">
+<center>
+<label class="control-label col-sm-2" for="email">Email:</label>
+<div class="col-sm-10">
+  <input type="email" class="form-control" id="email" placeholder="Enter email">
+</div>
+</div>
+<div class="form-group">
+<label class="control-label col-sm-2" for="text">Submission:</label>
+<div class="col-sm-10">
+  <input type="text" class="form-control" id="pwd" placeholder="Leave your submission here">
+</div>
+</div>
+<div class="form-group">
+<div class="col-sm-offset-2 col-sm-10">
+  <button type="submit" class="btn btn-default">Submit</button>
+</center></div>
+</div>
 </form>
 </div>
 </div>
