@@ -5,11 +5,18 @@
 <link href="https://fonts.googleapis.com/css?family=Kumar+One+Outline|Rock+Salt" rel="stylesheet">
 <link href="css/bootstrap.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/secondary.css">
+<<<<<<< HEAD
 <style>
 body {
     background-color: #ffffff;
 }
+=======
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+>>>>>>> 604cfb6f62ec796e47a51e961fafd9f82c722f9c
 
 </style>
 </head>
@@ -157,6 +164,41 @@ body {
 </div>
 
 
+
+<div>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+  <style>
+  body { margin:0; padding:0; }
+  #map { position:relative; top:0; bottom:0; width:100%; }
+  </style>
+  </head>
+  <body>
+
+  <div id='map'></div>
+  
+  <script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiYWxsaXNvbm0iLCJhIjoiY2pwYWE3Z2RqMDJvdzNqbnhqemE4dHF6diJ9.sp4jRvx-V842SOSlUKVvvw';
+  const map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/allisonm/cjpab2w851vye2spfjpdupjln',
+  center: [-122.403944, 37.784020],
+  zoom: 13.6
+  });
+  </script>
+
+</div>
+
+
+
+
+
+
+
+
+
   <img src="Londonsky.jpg" alt="sky" style="width:100%;">
 
 
@@ -164,23 +206,11 @@ body {
 <br>
 <br>
 
-<div id="googleMap" style="width:100%;height:400px;"></div>
-<script>
-function myMap() {
-var mapProp= {
-    center:new google.maps.LatLng(51.508742,-0.120850),
-    zoom:5,
-};
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
 </body>
-</html>
 <br>
-
+<br>
+<br>
 
 <div class="signup">
   <center>
@@ -190,19 +220,17 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 <input type="email" Placeholder="your email">
 <input type="submit">
 </center>
-</body>
+
 
 
 
 <br>
-<br>
-<br>
 
-<footer>
-  <div class="social">
+
     <center>
 <p>Follow us on social media!</p>
 <br>
+<<<<<<< HEAD
 
 <img src="https://imgur.com/FJV2xjM.png" title="Facebook" width="30" height="30">
 <img src="https://imgur.com/UqFc2Yy.png" title="Instagram" width="30" height="30">
@@ -210,3 +238,10 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 </center></div>
 <br>
 </footer>
+=======
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-instagram"></a>
+</center>
+</body>
+>>>>>>> 604cfb6f62ec796e47a51e961fafd9f82c722f9c
