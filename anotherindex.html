@@ -6,6 +6,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/secondary.css">
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css' rel='stylesheet' />
 </head>
 
 <div class="topnav">
@@ -150,6 +152,41 @@
       <div class="col"></div>
     <div id="element2"class="col-sm-6" style="padding: 20px"> <img src="covent.jpg" alt="covent" style="width:700px;height:400px;">
 </div>
+
+
+
+<div>
+  <meta charset='utf-8' />
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+  <style>
+  body { margin:0; padding:0; }
+  #map { position:relative; top:0; bottom:0; width:100%; }
+  </style>
+  </head>
+  <body>
+
+  <div id='map'></div>
+  
+  <script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiYWxsaXNvbm0iLCJhIjoiY2pwYWE3Z2RqMDJvdzNqbnhqemE4dHF6diJ9.sp4jRvx-V842SOSlUKVvvw';
+  const map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/allisonm/cjpab2w851vye2spfjpdupjln',
+  center: [-122.403944, 37.784020],
+  zoom: 13.6
+  });
+  </script>
+
+</div>
+
+
+
+
+
+
+
 
 
   <img src="Londonsky.jpg" alt="sky" style="width:100%;">
